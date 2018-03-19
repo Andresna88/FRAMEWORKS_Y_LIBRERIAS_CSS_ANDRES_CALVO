@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  	<meta name="keywords" content="HTML,CSS,Frameworks,Curso,Bootstrap,Fundation,Materilize,Jquery,FontAwesome,Blog,Comida, Musica, Viajes">
+	
+	<title>Blog de Gastronomía</title>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="../lib/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="../lib/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../lib/foundation/css/app.css">
+	<link rel="stylesheet" href="../lib/foundation/css/foundation.min.css">
+	<link rel="stylesheet" href="../css/styles.css">
+	<!-- Scripts -->
+	<script src="../lib/jquery/jquery-3.2.1.min.js"></script>
+
+	<style>
+		body {
+			background-image: url(../media/imgs/comida/background.jpg) !important;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			color: black !important;
+		}
+
+		#ti{
+			color: white !important;
+		}
+
+		#bgd{
+			background-color: red !important;
+			opacity: 0.8;
+    		filter: alpha(opacity=80);
+		}	
+	</style>
+
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+	<div id="food-container" class="off-canvas-wrapper">
+		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+			<div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas="" data-position="left" aria-hidden="true" data-offcanvas="dzp8s4-offcanvas">
+				<div class="row column">
+					<h2 class="text-h5" id="ti">Blog Gastronómico</h2>
+					<h5 class="text-right" id="ti">El sabor de mi tierra.</h5>
+					<div class="food-search-box">
+						<input type="text">
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</div>
+					<nav class="food-menu">
+						<ul class="vertical menu">
+							<li><a href="../index.html">Inicio</a></li>
+							<li><a href="#">Mi plato favorito</a></li>
+							<li><a href="#">Mis recetas</a></li>
+							<li>
+								<hr>
+								<ul>Favoritos:
+									<li>
+										<div class="row small-up-2 medium-up-3">
+											<div class="column"><img class="thumbnail" src="../media/imgs/comida/canelones.jpg"></div>
+											<div class="column"><img class="thumbnail" src="../media/imgs/comida/chimichurri.jpg"></div>
+											<div class="column"><img class="thumbnail" src="../media/imgs/comida/mazorca.JPG"></div>
+											<div class="column"><img class="thumbnail" src="../media/imgs/comida/picadillo.jpg"></div>
+											<div class="column"><img class="thumbnail" src="../media/imgs/comida/lasana.jpg"></div>
+											<div class="column"><img class="thumbnail" src="../media/imgs/comida/spagueti.jpg"></div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<hr>
+								<ul>Historial
+									<li>
+										<div class="row">
+											<div class="historial-boxes">
+												<p>Gallo Pinto</p>
+											</div>
+											<div class="historial-boxes">
+												<p>Olla de Carne</p>
+											</div>
+											<div class="historial-boxes">
+												<p>Casado</p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="off-canvas-content" data-off-canvas-content="">
+				<div class="title-bar hide-for-large">
+					<div class="title-bar-left">
+						<button class="menu-icon" type="button" data-open="my-info" aria-expanded="false" aria-controls="my-info"></button>
+						<span class="title-bar-title" id="ti">Blog de Gastronomía</span>
+					</div>
+				</div>
+				<div class="callout primary">
+					<div class="row column">
+						<h1 id="ti">Bienvenidos al Blog de Gastronomía</h1>
+						<p class="lead" id="ti">Platillos Tradicionales de mi Costa Rica</p>
+					</div>
+				</div>
+				<div class="row small-up-1 medium-up-3 food-articles">
+					<div class="column" id="bgd" align="center">
+						<br>
+						<h5 id="ti" align="center">Gallo Pinto Costarricense</h5>
+						<p class="food-fecha" id="ti">18/03/2018 - 13:00 PM</p>
+						<img class="thumbnail" src="../media/imgs/comida/pinto.jpg">
+						<p align="justify" id="ti">«gallopinto». Se puede comer en cualquier momento del día, aunque es particular hacerlo como desayuno. Existen tres versiones principales:
+						la del Valle Central, donde el gallo pinto es más húmedo, menos grasoso, y es condimentado con chile, culantro y cebollas. Una variante incluye el agregado de salsa Lizano. Con el pasar de las décadas esta salsa se ha convertido en parte de la identidad del gallo pinto costarricense;
+						la de Guanacaste, con un gallo pinto más grasoso y tostado; hecho con frijoles rojos.
+						la de la costa caribeña (Puerto Limón y Puerto Viejo), conocido como «rice and beans» ('arroz y frijoles'), en el cual se cocen el arroz y los frijoles con leche de coco y se agrega chile habanero (conocido localmente como chile panameño).</p>
+						<div class="food-comentario-box">
+							<input type="text" placeholder="Comentario...">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="column" align="center">
+						<br>
+						<h5 align="center">Olla de Carne Costarricense</h5>
+						<p class="food-fecha">17/03/2018 - 15:00 PM</p>
+						<img class="thumbnail" src="../media/imgs/comida/olladecarne.jpg">
+						<p align="justify">
+						Su historia comienza con un platillo judío llamado Adafina. Se piensa que al llegar a Costa Rica se modificó y se le agregaron los ingredientes que estuvieran a mano o que eran autóctonos del país. Se empezo a hacer en Costa Rica hace más de 100 años.
+
+						Preparación
+						El procedimiento de preparación tradicional es poner en una olla bien grande o espaciosa, preferiblemente una olla a presión la carne (tradicionalmente carne cesina, costilla de res, jarrete o alipego) con agua hasta cubrirla. Se agregan también especias (culantro, cebolla, sal, pimienta, orégano, apio), esto hasta que la carne esté bien suave. Luego se agregan las verduras hasta que estén bien suaves, con cuidado de que las verduras no pierdan su contextura y se deshagan en el caldo.</p>
+						<div class="food-comentario-box">
+							<input type="text" placeholder="Comentario...">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="column" id="bgd" align="center">
+						<br>
+						<h5 align="center" id="ti">Casado Costarricense</h5>
+						<p class="food-fecha" id="ti">16/03/2018 - 10:00 AM</p>
+						<img class="thumbnail" src="../media/imgs/comida/casado.jpg">
+						<p align="justify" id="ti">El contenido tradicional de un casado se compone de: frijoles, arroz, plátano, palmito, huevo y principalmente carne de res, pollo, cerdo o pescado. Las ensaladas que lo acompañan dependen de la disponibilidad de los ingredientes, que pueden ir desde la papa hasta la ensalada, entre muchas otras. Además, con regularidad se consume con alguna ración de pasta, que pueden ser una variedad de macarrones o canelones en salsa de tomate, así como una ensalada fría de caracolitos con mayonesa y atún. Asimismo se suele acompañar de algunas tortillas o pan blanco.
+
+						El casado es uno de los tres principales platillos de la culinaria costarricense junto con el gallo pinto y la olla de carne ya que siempre representa una opción económica y típica en un menú del país.</p>
+						<div class="food-comentario-box">
+							<input type="text" placeholder="Comentario...">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+				<div class="js-off-canvas-exit"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="../lib/foundation/js/vendor/foundation.min.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+	<script src="http://localhost:35729/livereload.js"></script>
+</body>
+
+</html>
